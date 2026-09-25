@@ -14,9 +14,10 @@ header .title-menu-container {
 }
 header .title-menu-container .title-menu {
   font-family: "Courier New", Courier, monospace;
-  font-size: 50;
+  font-size: 30px;
   font-weight: bold;
   color: #000000;
+  margin: 0;
 }
 header .nav {
   display: flex;
@@ -34,13 +35,13 @@ header .nav .nav-item-container {
   align-items: center;
   padding: 0;
   margin: 0;
-  width: 300px;
   z-index: 50;
+  width: 400px;
 }
 header .nav .nav-item-container .nav-item {
   height: 50px;
   font-family: "Courier New", Courier, monospace;
-  font-size: 30;
+  font-size: 20px;
   font-weight: lighter;
   color: #FFFFFF;
   text-decoration: none;
@@ -50,4 +51,11 @@ header .nav .nav-item-container .nav-item {
 }
 header .nav .nav-item-container .nav-item:hover {
   background-color: #2289E9;
+}
+
+main {
+  background-color: aqua;
+}
+main img {
+  width: 20px;
 }/*# sourceMappingURL=style.css.map */
